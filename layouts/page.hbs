@@ -5,21 +5,16 @@
 <body class="padding-top">
     {{> header }}
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-                <article>
-                    <div class="blogpost-header">
-                        <h1>{{title}}</h1>
-                        <span class="blogpost-meta">{{#if author}}{{author}}, {{/if}}<time datetime="{{ date }}">{{ date }}</time></span>
-                    </div>
-
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <h1>{{title}}</h1>
                     {{{ contents }}}
-                </article>
+                </div>
             </div>
         </div>
-    </div>
+    </article>
 
     {{> footer }}
 </body>
