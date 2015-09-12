@@ -8,8 +8,6 @@ slug: cfp
 layout: page.hbs
 ---
 
-# Call for Papers
-
 [![](https://img.shields.io/badge/submit-cfp-yellow.svg?style=flat-square)](https://github.com/JSBelgrade/cfp/issues/new)
 
 Call for Papers for JS Belgrade Meetups.
