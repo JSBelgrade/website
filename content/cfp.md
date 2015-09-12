@@ -1,10 +1,5 @@
 ---
 title: Call for papers
-author: jsbelgrade
-date: 2015-09-12T12:45:39.602Z
-status: publish
-category: page
-slug: cfp
 layout: page.hbs
 ---
 

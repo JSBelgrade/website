@@ -1,10 +1,5 @@
 ---
 title: Slack
-author: jsbelgrade
-date: 2015-09-12T12:45:39.602Z
-status: publish
-category: page
-slug: slack
 layout: page.hbs
 ---
 
