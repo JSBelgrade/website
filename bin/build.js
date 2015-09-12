@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 'use strict';
-console.time('build finished');
 const path = require('path');
 const Metalsmith = require('metalsmith');
 const layouts = require('metalsmith-layouts');
