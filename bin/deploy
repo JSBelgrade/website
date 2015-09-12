@@ -1,8 +1,8 @@
 #!/bin/bash
 rm -rf dist || exit 0;
 node ./bin/build.js
-cp ../CNAME ./CNAME
 ( cd dist
+ cp ../CNAME ./CNAME
  git init
  git add .
  git config user.name "Semaphore-CI"
