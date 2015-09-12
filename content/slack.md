@@ -3,8 +3,5 @@ title: Slack
 layout: page.hbs
 ---
 
-
-### Welcome to slack page
-
-To join slack please visit [https://slack.jsbelgrade.org](slack.jsbelgrade.org) and type your email address
+<iframe src="http://slack.jsbelgrade.org" width="100%" height="900px" style="border:0;overflow-y:hidden;" seamless="seamless">/>
 
