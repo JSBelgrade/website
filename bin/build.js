@@ -60,6 +60,6 @@ function copyStatic(done) {
     })
 }
 
-build(() => {
-    copyStatic(() => { console.log('done!') })
+build(function(){
+    copyStatic(function() { console.log('done!') })
 });
