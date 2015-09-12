@@ -1,7 +1,7 @@
 #!/bin/bash
 rm -rf dist || exit 0;
-mkdir dist;
 node ./bin/build.js
+cp ../CNAME ./CNAME
 ( cd dist
  git init
  git add .
