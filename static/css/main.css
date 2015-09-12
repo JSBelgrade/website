@@ -1,0 +1,18 @@
+.padding-top {
+    padding-top: 60px;
+}
+.padding-top nav.navbar a {
+    color: #333;
+}
+
+.padding-top nav.navbar a:hover {
+    color: #666;
+}
+
+.intro-header hr.small {
+    border-color: #333;
+}
+
+.intro-header .site-heading {
+    color: #333;
+}

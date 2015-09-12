@@ -1,0 +1,31 @@
+{
+  "name": "jsbelgrade.org",
+  "version": "1.0.0",
+  "description": "Website for jsbelgrade.org",
+  "main": "bin/build.js",
+  "scripts": {
+    "build": "./bin/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSBelgrade/website.git"
+  },
+  "author": "JSBelgrade Community",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JSBelgrade/website/issues"
+  },
+  "homepage": "https://github.com/JSBelgrade/website#readme",
+  "dependencies": {
+    "downsize": "0.0.8",
+    "handlebars": "^4.0.2",
+    "marked": "^0.3.5",
+    "metalsmith": "^2.0.1",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-layouts": "^1.4.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.4.0",
+    "moment": "^2.10.6",
+    "ncp": "^2.0.0"
+  }
+}
