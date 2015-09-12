@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JSBelgrade/website#readme",
   "dependencies": {
+    "chokidar": "^1.0.5",
     "downsize": "0.0.8",
     "handlebars": "^4.0.2",
     "marked": "^0.3.5",
@@ -26,6 +27,7 @@
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-permalinks": "^0.4.0",
     "moment": "^2.10.6",
-    "ncp": "^2.0.0"
+    "ncp": "^2.0.0",
+    "st": "^0.5.5"
   }
 }

@@ -56,9 +56,15 @@ function copyStatic(done) {
             throw err
         }
         done && done();
-    })
+    });
 }
 
-build(function(){
-    copyStatic(function() { console.log('done!') })
-});
+var buildAndCopy = function (done) {
+    build(function(){
+        copyStatic(function() { done && done(); console.log('build done!') })
+    });
+};
+
+buildAndCopy();
+
+module.exports = buildAndCopy;
