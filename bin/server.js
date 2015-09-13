@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+'use strict';
+
 const st = require('st');
 const http = require('http');
 const path = require('path');
@@ -15,7 +17,12 @@ function start() {
     http.createServer(function (req, res) {
         mount(req, res);
     }).listen(8080, function () {
-        console.log('http://localhost:8080/en/');
+        let url = 'http://localhost:8080';
+        console.log(url);
+        // Open browser url after 1.5s (it waits for everything to be built)
+        setTimeout(function() {
+            require("openurl").open(url)
+        }, 1500);
     });
 
     /** File Watches for Re-Builds **/
