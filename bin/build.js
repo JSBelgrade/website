@@ -6,6 +6,7 @@ const Metalsmith = require('metalsmith');
 const layouts = require('metalsmith-layouts');
 const markdown = require('metalsmith-markdown');
 const permalinks = require('metalsmith-permalinks');
+const metalsmithPrism = require('metalsmith-prism');
 const collections = require('metalsmith-collections');
 const feed = require('metalsmith-feed');
 const mapHandlebarsPartials = require('../scripts/mapHandlebarsPartials');
@@ -32,7 +33,10 @@ function build(done) {
         .use(feed({
             collection: 'blog'
         }))
-        .use(markdown())
+        .use(markdown({
+            langPrefix: 'language-'
+        }))
+        .use(metalsmithPrism())
         .use(permalinks({
             relative: false
         }))
