@@ -4,7 +4,8 @@
   "description": "Website for jsbelgrade.org",
   "main": "bin/build.js",
   "scripts": {
-    "build": "./bin/build.js"
+    "build": "./bin/build.js",
+    "start": "./bin/server.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "metalsmith-permalinks": "^0.4.0",
     "moment": "^2.10.6",
     "ncp": "^2.0.0",
+    "openurl": "^1.1.0",
     "st": "^0.5.5"
   }
 }
