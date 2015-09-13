@@ -18,7 +18,7 @@ function start() {
         mount(req, res);
     }).listen(8080, function () {
         let url = 'http://localhost:8080';
-        console.log(url);
+        console.log(`Serving static site at: ${url}`);
         // Open browser url after 1.5s (it waits for everything to be built)
         setTimeout(function() {
             require("openurl").open(url)

@@ -4,7 +4,8 @@
   "description": "Website for jsbelgrade.org",
   "main": "bin/build.js",
   "scripts": {
-    "build": "./bin/build.js"
+    "build": "./bin/build.js",
+    "start": "./bin/server.js"
   },
   "repository": {
     "type": "git",
