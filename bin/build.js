@@ -6,6 +6,7 @@ const Metalsmith = require('metalsmith');
 const layouts = require('metalsmith-layouts');
 const markdown = require('metalsmith-markdown');
 const permalinks = require('metalsmith-permalinks');
+const metalsmithPrism = require('metalsmith-prism');
 const collections = require('metalsmith-collections');
 const mapHandlebarsPartials = require('../scripts/mapHandlebarsPartials');
 const siteInfo = require('../siteInfo');
@@ -28,7 +29,10 @@ function build(done) {
                 refer: false
             },
         }))
-        .use(markdown())
+        .use(markdown({
+            langPrefix: 'language-'
+        }))
+        .use(metalsmithPrism())
         .use(permalinks({
             relative: false
         }))
