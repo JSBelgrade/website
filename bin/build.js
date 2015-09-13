@@ -8,6 +8,7 @@ const markdown = require('metalsmith-markdown');
 const permalinks = require('metalsmith-permalinks');
 const metalsmithPrism = require('metalsmith-prism');
 const collections = require('metalsmith-collections');
+const feed = require('metalsmith-feed');
 const mapHandlebarsPartials = require('../scripts/mapHandlebarsPartials');
 const siteInfo = require('../siteInfo');
 const ncp = require('ncp');
@@ -28,6 +29,9 @@ function build(done) {
                 reverse: true,
                 refer: false
             },
+        }))
+        .use(feed({
+            collection: 'blog'
         }))
         .use(markdown({
             langPrefix: 'language-'
