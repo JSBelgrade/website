@@ -16,15 +16,13 @@ function start () {
     index: 'index.html'
   })
 
-  http.createServer(function (req, res) {
-    mount(req, res)
-  }).listen(8080, function () {
+  http.createServer((req, res) => mount(req, res)).listen(8080, () => {
     let url = 'http://localhost:8080'
 
     console.log(`Serving static site at: ${url}`)
 
     // Open browser url after 1.5s (it waits for everything to be built)
-    setTimeout(function () {
+    setTimeout(() => {
       require('openurl').open(url)
     }, 1500)
   })
@@ -42,12 +40,12 @@ function start () {
     atomic: true
   }
 
-  ;['layouts', 'static', 'content'].forEach(function (folder) {
-    chokidar.watch(path.join(dir, folder), opts).on('change', function () {
+  ;['layouts', 'static', 'content'].forEach(folder =>
+    chokidar.watch(path.join(dir, folder), opts).on('change', () => {
       console.log('files changed in', folder, 'building...')
       build()
     })
-  })
+  )
 }
 
 start()

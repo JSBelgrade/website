@@ -53,7 +53,7 @@ function build (done) {
       }))
       .destination(path.join(dir, 'dist'))
 
-  metalsmith.build(function (err) {
+  metalsmith.build(err => {
     if (err) {
       throw err
     }
@@ -62,21 +62,22 @@ function build (done) {
 }
 
 function copyStatic (done) {
-  ncp(path.join(dir, 'static'), path.join(dir, 'dist', 'static'), function (err) {
+  ncp(path.join(dir, 'static'), path.join(dir, 'dist', 'static'), err => {
     if (err) {
       throw err
     }
+
     done && done()
   })
 }
 
-var buildAndCopy = function (done) {
-  build(function () {
-    copyStatic(function () {
+function buildAndCopy (done) {
+  build(() =>
+    copyStatic(() => {
       done && done()
       console.log('build done!')
     })
-  })
+  )
 }
 
 buildAndCopy()
