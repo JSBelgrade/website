@@ -18,27 +18,27 @@
   },
   "homepage": "https://github.com/JSBelgrade/website#readme",
   "dependencies": {
-    "chokidar": "^1.0.5",
+    "chokidar": "1.1.0",
     "downsize": "0.0.8",
-    "handlebars": "^4.0.2",
-    "marked": "^0.3.5",
-    "metalsmith": "^2.0.1",
-    "metalsmith-collections": "^0.7.0",
-    "metalsmith-feed": "^0.1.0",
-    "metalsmith-layouts": "^1.4.0",
-    "metalsmith-markdown": "^0.2.1",
-    "metalsmith-permalinks": "^0.4.0",
-    "metalsmith-prism": "^2.0.0",
-    "moment": "^2.10.6",
-    "ncp": "^2.0.0",
-    "openurl": "^1.1.0",
-    "st": "^0.5.5"
+    "handlebars": "4.0.3",
+    "marked": "0.3.5",
+    "metalsmith": "2.1.0",
+    "metalsmith-collections": "0.7.0",
+    "metalsmith-feed": "0.1.0",
+    "metalsmith-layouts": "1.4.1",
+    "metalsmith-markdown": "0.2.1",
+    "metalsmith-permalinks": "0.4.0",
+    "metalsmith-prism": "2.0.0",
+    "moment": "2.10.6",
+    "ncp": "2.0.0",
+    "openurl": "1.1.0",
+    "st": "0.5.5"
   },
   "devDependencies": {
-    "commitizen": "^1.0.4",
-    "cz-conventional-changelog": "^1.1.0",
-    "snazzy": "^2.0.1",
-    "standard": "^5.3.0"
+    "commitizen": "1.0.4",
+    "cz-conventional-changelog": "1.1.1",
+    "snazzy": "2.0.1",
+    "standard": "5.3.1"
   },
   "standard": {
     "ignore": [
