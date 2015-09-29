@@ -32,7 +32,7 @@
     "moment": "2.10.6",
     "ncp": "2.0.0",
     "openurl": "1.1.0",
-    "st": "0.5.5"
+    "st": "1.0.0"
   },
   "devDependencies": {
     "commitizen": "1.0.4",
