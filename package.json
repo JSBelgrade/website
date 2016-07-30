@@ -21,7 +21,7 @@
     "chokidar": "1.6.0",
     "downsize": "0.0.8",
     "handlebars": "4.0.5",
-    "marked": "0.3.5",
+    "marked": "0.3.6",
     "metalsmith": "2.1.0",
     "metalsmith-collections": "0.7.0",
     "metalsmith-feed": "0.2.0",
