@@ -35,7 +35,7 @@
     "st": "1.2.0"
   },
   "devDependencies": {
-    "commitizen": "*",
+    "commitizen": "2.8.6",
     "cz-conventional-changelog": "*",
     "snazzy": "*",
     "standard": "*"
