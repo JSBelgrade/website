@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/JSBelgrade/website#readme",
   "dependencies": {
-    "chokidar": "1.6.0",
+    "chokidar": "1.6.1",
     "downsize": "0.0.8",
     "handlebars": "4.0.5",
     "marked": "0.3.6",
