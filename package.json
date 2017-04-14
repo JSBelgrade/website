@@ -38,7 +38,7 @@
     "commitizen": "*",
     "cz-conventional-changelog": "*",
     "snazzy": "*",
-    "standard": "*"
+    "standard": "10.0.2"
   },
   "standard": {
     "ignore": [
