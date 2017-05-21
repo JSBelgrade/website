@@ -20,7 +20,7 @@
   "dependencies": {
     "chokidar": "1.7.0",
     "downsize": "0.0.8",
-    "handlebars": "4.0.8",
+    "handlebars": "4.0.10",
     "marked": "0.3.6",
     "metalsmith": "2.2.2",
     "metalsmith-collections": "0.9.0",
