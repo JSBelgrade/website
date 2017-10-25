@@ -1,0 +1,107 @@
+/* JS BELGRADE */
+
+body {
+    background-color: #383631;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.logo {
+    max-width: 255px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.outer-wrapper {
+    width: 100%;
+}
+.inner-wrapper {
+    float: none;
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+}
+.apply-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.apply-button:hover {
+    background-color: #5CD575;
+}
+.circle-icons-wrapper {
+    text-align: center;
+    display: inline-block;
+}
+.icons-wrapper a {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+.icons-wrapper a.github,
+.icons-wrapper a.slack {
+    margin: 10px;
+}
+.icons-wrapper a.github {
+    color: #FBB602;
+}
+.icons-wrapper a.github i:before {
+    font-size: 50px;
+    color: #FBB602;
+    margin-left: 0;
+}
+.icons-wrapper a.slack i:before {
+    font-size: 35px;
+    line-height: 53px;
+    width: 35px;
+    color: #383631;
+}
+.icons-wrapper a.github:hover i:before {
+    color: #FFCC48;
+}
+.icons-wrapper a.slack {
+    background-color: #FBB602;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.icons-wrapper a.slack:hover {
+    background-color: #FFCC48;
+}
+.icons-wrapper a.meetup {
+    background-color: #FFFFFF;
+    color: #F64060;
+}
+.icons-wrapper a.meetup:hover {
+    background-color: #F64060;
+    color: #FFFFFF;
+}
+.icons-wrapper a.meetup i:before {
+    font-size: 35px;
+    line-height: 40px;
+    width: 101px;
+}
+a.meetup {
+    display: block;
+    width: 113px;
+    height: 40px;
+    float: none;
+    margin: 10px auto;
+}
+.copyright {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 300;
+}
