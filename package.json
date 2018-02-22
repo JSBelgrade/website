@@ -4,8 +4,10 @@
   "description": "Website for jsbelgrade.org",
   "main": "bin/build.js",
   "scripts": {
-    "build": "./bin/build.js",
-    "start": "standard --verbose | snazzy && ./bin/server.js"
+    "build": "node ./bin/build.js",
+    "commit": "git-cz",
+    "commit-all": "git add . && npm run commit",
+    "start": "standard --verbose | snazzy && node ./bin/server.js"
   },
   "repository": {
     "type": "git",
@@ -46,7 +48,9 @@
       "scripts"
     ]
   },
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog/"
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog/"
+    }
   }
 }
