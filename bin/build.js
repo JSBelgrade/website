@@ -24,34 +24,34 @@ function build (done) {
 
   metalsmith
     .source(path.join(dir, 'content'))
-      .use(collections({
-        blog: {
-          pattern: 'blog/**/*.md',
-          sortBy: 'date',
-          reverse: true,
-          refer: false
-        }
-      }))
-      .use(feed({
-        collection: 'blog'
-      }))
-      .use(markdown({
-        langPrefix: 'language-'
-      }))
-      .use(metalsmithPrism())
-      .use(permalinks({
-        relative: false
-      }))
-      .use(layouts({
-        engine: 'handlebars',
-        pattern: '**/*.html',
-        partials: mapHandlebarsPartials(metalsmith, 'layouts', 'partials'),
-        helpers: {
-          excerpt: require('../scripts/helpers/excerpt'),
-          moment: require('../scripts/helpers/moment')
-        }
-      }))
-      .destination(path.join(dir, 'dist'))
+    .use(collections({
+      blog: {
+        pattern: 'blog/**/*.md',
+        sortBy: 'date',
+        reverse: true,
+        refer: false
+      }
+    }))
+    .use(feed({
+      collection: 'blog'
+    }))
+    .use(markdown({
+      langPrefix: 'language-'
+    }))
+    .use(metalsmithPrism())
+    .use(permalinks({
+      relative: false
+    }))
+    .use(layouts({
+      engine: 'handlebars',
+      pattern: '**/*.html',
+      partials: mapHandlebarsPartials(metalsmith, 'layouts', 'partials'),
+      helpers: {
+        excerpt: require('../scripts/helpers/excerpt'),
+        moment: require('../scripts/helpers/moment')
+      }
+    }))
+    .destination(path.join(dir, 'dist'))
 
   metalsmith.build(err => {
     if (err) {
