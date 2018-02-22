@@ -4,10 +4,12 @@
   "description": "Website for jsbelgrade.org",
   "main": "bin/build.js",
   "scripts": {
-    "build": "node ./bin/build.js",
-    "commit": "git-cz",
-    "commit-all": "git add . && npm run commit",
-    "start": "standard --verbose | snazzy && node ./bin/server.js"
+    "clean": "rimraf ./node_modules",
+    "lint": "standard --verbose | snazzy",
+    "commit": "npm run lint && git-cz",
+    "build": "npm run lint && node ./bin/build.js",
+    "server": "(wait-on http://localhost:$PORT && opn http://localhost:$PORT) | node ./bin/server.js",
+    "start": "npm run lint && cross-env PORT=8080 npm run server"
   },
   "repository": {
     "type": "git",
@@ -33,14 +35,17 @@
     "metalsmith-prism": "3.0.2",
     "moment": "2.18.1",
     "ncp": "2.0.0",
-    "openurl": "1.1.1",
     "st": "1.2.0"
   },
   "devDependencies": {
     "commitizen": "*",
+    "cross-env": "^5.1.3",
     "cz-conventional-changelog": "*",
     "snazzy": "*",
-    "standard": "*"
+    "opn-cli": "^3.1.0",
+    "wait-on": "^2.1.0",
+    "standard": "*",
+    "rimraf": "^2.6.2"
   },
   "standard": {
     "ignore": [
