@@ -5,6 +5,10 @@
     color: #333;
 }
 
+.padding-top nav.navbar a:focus {
+  color: #333;
+}
+
 .padding-top nav.navbar a:hover {
     color: #666;
 }
@@ -16,3 +20,64 @@
 .intro-header .site-heading {
     color: #333;
 }
+
+/*
+====================
+Conferences
+====================
+*/
+
+.conferences-intro {
+  text-align: center;
+}
+
+.conferences {
+  padding: 0;
+}
+
+.conference {
+  margin-bottom: 30px;
+}
+
+.conference .conference-caption {
+  padding: 15px;
+  text-align: left
+}
+.conference-logo {
+  max-height: 250px;
+  min-width: 100%;
+}
+.conference .conference-title {
+  word-break: break-word;
+}
+
+.conference-links i {
+  padding: 0px 6.5px 0px 0px;
+}
+
+.conference-links a:link {
+  text-decoration: none;
+}
+
+.conference-links {
+  padding-top: 15px;
+  font-size: x-large;
+}
+
+.conference-links .youtube {
+  color: #ff1004;
+}
+
+.conference-links .twitter {
+  color: #1da1f2;
+}
+
+
+
+
+
+
+/*
+=====================
+=====================
+*/
