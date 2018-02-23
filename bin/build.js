@@ -30,6 +30,11 @@ function build (done) {
         sortBy: 'date',
         reverse: true,
         refer: false
+      },
+      conferences: {
+        pattern: 'conferences/**/*.md',
+        sortBy: 'rating',
+        reverse: true
       }
     }))
     .use(feed({
@@ -47,6 +52,8 @@ function build (done) {
       pattern: '**/*.html',
       partials: mapHandlebarsPartials(metalsmith, 'layouts', 'partials'),
       helpers: {
+        modul: require('../scripts/helpers/modul'),
+        or: require('../scripts/helpers/or'),
         excerpt: require('../scripts/helpers/excerpt'),
         moment: require('../scripts/helpers/moment')
       }
