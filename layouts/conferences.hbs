@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+{{> html-head }}
+
+<body class="padding-top">
+  {{> header }}
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <h1>{{title}}</h1>
+          <p class="conferences-intro">{{{contents}}}</p>
+          <p>For more information, please visit
+            <a href="{{site.url}}/slack">slack </a>#events.</p>
+          {{#if collections.conferences }}
+            <div class="container-fluid conferences">
+              {{#each collections.conferences}}
+                {{#modul @index 2 0 }}
+                  <div class="row">
+                {{/modul}}
+                <div class="col-lg-6 col-sm-6 col-md-6 categories">
+                  {{> conference this}}
+                </div>
+                {{!--
+                Column count can be parametrized,
+                but its unlikely it will need to
+                change in this contex.
+                However if you chabge this magic number here,
+                you also need to change classes in conference.hbs
+                --}}
+                {{#modul @index 2 1 }}
+                  </div>
+                {{/modul}}
+              {{/each}}
+            </div>
+          {{else}}
+            <p>Currently, there are no conferences. Please try latter.</p>
+          {{/if}}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{> footer }}
+</body>
+
+</html>
