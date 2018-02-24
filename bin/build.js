@@ -13,6 +13,8 @@ const feed = require('metalsmith-feed')
 const mapHandlebarsPartials = require('../scripts/mapHandlebarsPartials')
 const siteInfo = require('../siteInfo')
 const ncp = require('ncp')
+const pagination = require('metalsmith-pagination')
+const ignore = require('metalsmith-ignore')
 const dir = path.join(__dirname, '..')
 
 function build (done) {
@@ -33,7 +35,7 @@ function build (done) {
       },
       conferences: {
         pattern: 'conferences/**/*.md',
-        sortBy: 'rating',
+        sortBy: 'start-date',
         reverse: true
       }
     }))
@@ -43,9 +45,25 @@ function build (done) {
     .use(markdown({
       langPrefix: 'language-'
     }))
+    .use(ignore('conferences/*'))
     .use(metalsmithPrism())
     .use(permalinks({
       relative: false
+    }))
+    .use(pagination({
+      'collections.conferences': {
+        perPage: 4,
+        pageMetadata: {
+          'title': 'Conferences'
+        },
+        filter: function (page) {
+          return !page.archive
+        },
+        layout: 'conferences.hbs',
+        first: 'conferences/index.html',
+        noPageOne: true,
+        path: 'conferences/:num/index.html'
+      }
     }))
     .use(layouts({
       engine: 'handlebars',
@@ -54,6 +72,7 @@ function build (done) {
       helpers: {
         modul: require('../scripts/helpers/modul'),
         or: require('../scripts/helpers/or'),
+        strip: require('../scripts/helpers/strip'),
         excerpt: require('../scripts/helpers/excerpt'),
         moment: require('../scripts/helpers/moment')
       }

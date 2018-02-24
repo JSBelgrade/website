@@ -1,5 +1,8 @@
 <div class="conference thumbnail">
-  <img class="conference-logo" src="{{logo}}" alt="conference-logo">
+    <img class="conference-logo" src="{{logo}}" alt="conference-logo">
+    <div class="badge-container">
+      <div class="badge"></div>
+    </div>
   <div class="conference-caption caption">
     <h2 class="conference-title post-title">
       <a href="{{site}}" target="_blank">
@@ -30,7 +33,11 @@
     </h2>
     <p class="conference-text post-subtitle">{{{contents}}}</p>
     <div class="conference-dates">
-      <strong>{{moment start-date "MMM Do"}}-{{moment end-date "MMM Do"}}</strong>
+      <input type="hidden" name="start-date" value="{{moment start-date ""}}">
+      <input type="hidden" name="end-date" value="{{moment end-date ""}}">
+      <strong class="start-date-display">{{moment start-date "MMM Do"}}</strong>
+      -
+      <strong class="end-date-display">{{moment end-date "MMM Do"}}</strong>
     </div>
   </div>
 </div>

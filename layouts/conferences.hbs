@@ -10,12 +10,17 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           <h1>{{title}}</h1>
-          <p class="conferences-intro">{{{contents}}}</p>
-          <p>For more information, please visit
+          <div class="conferences-intro">
+            <p>This is a list of upcoming <strong>friend</strong> conferences.
+            <br/>
+            You have a chance to earn free ticket or discount.
+            </p>
+            <p>For more information, please visit
             <a href="{{site.url}}/slack">slack </a>#events.</p>
-          {{#if collections.conferences }}
+          </div>
+          {{#if pagination.files }}
             <div class="container-fluid conferences">
-              {{#each collections.conferences}}
+              {{#each pagination.files}}
                 {{#modul @index 2 0 }}
                   <div class="row">
                 {{/modul}}
@@ -37,12 +42,24 @@
           {{else}}
             <p>Currently, there are no conferences. Please try later.</p>
           {{/if}}
+          {{#if pagination}}
+            <nav class="pagination clearfix">
+                {{#if pagination.previous}}
+                    <a class="btn btn-primary left" href="/{{strip pagination.previous.path}}">&lt; Prev</a>
+                {{/if}}
+                {{#if pagination.next}}
+                    <a class="btn btn-primary right"href="/{{strip pagination.next.path}}">Next &gt;</a>
+                {{/if}}
+            </nav>
+          {{/if}}
         </div>
       </div>
     </div>
   </section>
 
   {{> footer }}
+  {{!-- Custom client-side code --}}
+  <script src="/static/js/conferences.js"></script>
 </body>
 
 </html>

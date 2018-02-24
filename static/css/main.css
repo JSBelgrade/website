@@ -46,6 +46,16 @@ footer {
     color: #333;
 }
 
+.pagination {
+  width: 100%;
+}
+.pagination .left {
+  float: left;
+}
+.pagination .right {
+  float: right;
+}
+
 /*
 ====================
 Conferences
@@ -62,6 +72,17 @@ Conferences
 
 .conference {
   margin-bottom: 30px;
+}
+
+.conference .badge-container {
+  display: flex;
+  margin-top: 12px;
+  justify-content: center;
+}
+
+.conference .badge {
+  width: 50%;
+  padding: 5px;
 }
 
 .conference .conference-caption {
@@ -87,6 +108,16 @@ Conferences
 .conference-links {
   padding-top: 15px;
   font-size: x-large;
+}
+
+.badge.upcoming {
+  background: green;
+}
+.badge.past {
+  background: red;
+}
+.badge.today {
+  background: grey;
 }
 
 .conference-links .youtube {
