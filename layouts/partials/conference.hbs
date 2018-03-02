@@ -1,0 +1,43 @@
+<div class="conference thumbnail">
+    <img class="conference-logo" src="{{logo}}" alt="conference-logo">
+    <div class="badge-container">
+      <div class="badge"></div>
+    </div>
+  <div class="conference-caption caption">
+    <h2 class="conference-title post-title">
+      <a href="{{site}}" target="_blank">
+        {{title}} {{moment start-date "YYYY"}}
+        <br/>
+        <small>
+          <strong>{{city}}</strong>
+        </small>
+      </a>
+      {{#or 1=youtube 2=twitter 3=google-map}}
+      <div class="conference-links">
+        {{#if google-map}}
+        <a href="https://www.google.com/maps/search/{{google-map}}" target="_blank">
+          <i class="map fa fa-map-marker fa-lg"></i>
+        </a>
+        {{/if}} {{#if youtube}}
+        <a href="{{youtube}}" target="_blank">
+          <i class="youtube fa fa-youtube-play fa-lg"></i>
+        </a>
+        {{/if}} {{#if twitter}}
+        <a href="{{twitter}}" target="_blank">
+          <i class="twitter fa fa-twitter fa-lg"></i>
+        </a>
+        {{/if}}
+
+      </div>
+      {{/or}}
+    </h2>
+    <p class="conference-text post-subtitle">{{{contents}}}</p>
+    <div class="conference-dates">
+      <input type="hidden" name="start-date" value="{{moment start-date ""}}">
+      <input type="hidden" name="end-date" value="{{moment end-date ""}}">
+      <strong class="start-date-display">{{moment start-date "MMM Do"}}</strong>
+      -
+      <strong class="end-date-display">{{moment end-date "MMM Do"}}</strong>
+    </div>
+  </div>
+</div>

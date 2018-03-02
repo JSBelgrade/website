@@ -9,6 +9,8 @@ const dir = path.join(__dirname, '..')
 const chokidar = require('chokidar')
 const build = require('./build')
 
+const PORT = process.env['PORT']
+
 function start () {
   const mount = st({
     path: path.join(dir, 'dist'),
@@ -17,14 +19,9 @@ function start () {
   })
 
   http.createServer((req, res) => mount(req, res)).listen(8080, () => {
-    let url = 'http://localhost:8080'
+    let url = `http://localhost:${PORT}`
 
     console.log(`Serving static site at: ${url}`)
-
-    // Open browser url after 1.5s (it waits for everything to be built)
-    setTimeout(() => {
-      require('openurl').open(url)
-    }, 1500)
   })
 
   /** File Watches for Re-Builds **/

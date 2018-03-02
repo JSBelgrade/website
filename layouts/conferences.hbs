@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+{{> html-head }}
+
+<body class="padding-top">
+  {{> header }}
+
+  <section class="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <h1>{{title}}</h1>
+          <div class="conferences-intro">
+            <p>This is a list of upcoming <strong>friend</strong> conferences.
+            <br/>
+            You have a chance to earn free ticket or discount.
+            </p>
+            <p>For more information, please visit
+            <a href="{{site.url}}/slack">slack </a>#events.</p>
+          </div>
+          {{#if pagination.files }}
+            <div class="container-fluid conferences">
+              {{#each pagination.files}}
+                {{#modul @index 2 0 }}
+                  <div class="row">
+                {{/modul}}
+                <div class="col-lg-6 col-sm-6 col-md-6 categories">
+                  {{> conference this}}
+                </div>
+                {{!--
+                Column count can be parametrized,
+                but its unlikely it will need to
+                change in this contex.
+                However if you chabge this magic number here,
+                you also need to change classes in conference.hbs
+                --}}
+                {{#modul @index 2 1 }}
+                  </div>
+                {{/modul}}
+              {{/each}}
+            </div>
+          {{else}}
+            <p>Currently, there are no conferences. Please try later.</p>
+          {{/if}}
+          {{#if pagination}}
+            <nav class="pagination clearfix">
+                {{#if pagination.previous}}
+                    <a class="btn btn-primary left" href="/{{strip pagination.previous.path}}">&lt; Prev</a>
+                {{/if}}
+                {{#if pagination.next}}
+                    <a class="btn btn-primary right"href="/{{strip pagination.next.path}}">Next &gt;</a>
+                {{/if}}
+            </nav>
+          {{/if}}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{> footer }}
+  {{!-- Custom client-side code --}}
+  <script src="/static/js/conferences.js"></script>
+</body>
+
+</html>
