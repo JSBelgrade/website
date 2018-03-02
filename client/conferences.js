@@ -6,14 +6,12 @@ import lodash from 'lodash'
 /*  eslint-env jquery */
 
 function onLoadEvent () {
-  console.log('loaded')
   const conferences = $('.conference')
 
   if (!lodash.isEmpty(conferences)) {
     assignBadge(conferences)
-  } else {
-    console.warn('There are no conferences.')
   }
+  // else there are no conferences
 }
 
 function updateBadge (conf, cls, value) {

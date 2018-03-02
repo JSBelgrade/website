@@ -18,7 +18,7 @@ function start () {
     index: 'index.html'
   })
 
-  http.createServer((req, res) => mount(req, res)).listen(8080, () => {
+  http.createServer((req, res) => mount(req, res)).listen(PORT, () => {
     let url = `http://localhost:${PORT}`
 
     console.log(`Serving static site at: ${url}`)
