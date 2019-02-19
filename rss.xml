@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JS Belgrade]]></title><description><![CDATA[JS Belgrade is JavaScript User Group from Belgrade, Serbia. Our goal is to connect Belgrade's JavaScript community through monthly meetups.]]></description><link>https://jsbelgrade.org</link><generator>metalsmith-feed</generator><lastBuildDate>Tue, 19 Feb 2019 09:35:52 GMT</lastBuildDate><atom:link href="https://jsbelgrade.org/rss.xml" rel="self" type="application/rss+xml"/><author><![CDATA[JS Belgrade Community]]></author><item><title><![CDATA[JS Belgrade meetup]]></title><description><![CDATA[
+After few anxious weeks of waiting for next JS Belgrade meetup, we had great pleasure of having **[Stephan Bönnemann](https://github.com/boennemann)** give three talks the same day at *JS Belgrade meetup #9*.
+<img src="https://dl.dropboxusercontent.com/s/p6fsfnq5tey2r91/1.jpg?dl=0" style="width:100%; float:left; margin: 12px 0"/>
+
+Stephen successfully combined practical knowledge and informative topics keeping audience's attention through the course of meetup. Subjects were [Hoodie](http://hood.ie/) (rapid web application development suite Stephen is working on), **npm** and Semantic versioning.
+
+### 1 Hoodie
+
+Hoodie talk was actually formed around its concepts and future strives. Stephan went on explaining **offline first** approach which can give us more responsive and more useful web applications, and after that **no backend** and **dreamcode** which would give front end developers more "full stack" ability thus pushing the limits of rapid app development and prototyping.
+
+At the end he gave us insight into what is next for Hoodie.
+
+If you want to know more about this talk's subjects, you can visit [Hoodie website](http://hood.ie/) and [Nobackend.org](http://nobackend.org/)
+
+### 2 NPMs
+
+This talk could be subtitled *"npm tips and tricks"*, IMHO this was the talk with highest applicability since everyone found out about at least one thing that was unknown before.
+
+Here, Stephan gave us review of features, usages of some very interesting NPM features, including some that we use every day, but not like this :D
+
+<img src="https://dl.dropboxusercontent.com/s/eapu1zpey4tg2bn/3.jpg?dl=0" style="width:100%; float:left; margin: 12px 0"/>
+
+### 3 Semantic-release (semantic versioning)
+
+Last talk was the one to cause the most controversy amongst the engineers in the audience... Obviously because everyone likes to involve the emotions into the development process, bringing the same approach to versioning...
+
+SemVer was, ofc, the focus of the discussion and apart of the conceptual discussion, Stephan has shown us some tools to deal with this kind of versioning. Tools displayed dealt with code in depth, with tests and documentation and all the parameters of the code that should impact actual code version.
+
+Clear final conclusion on the subject was hard, or even impossible to make, but Stephan's approach to explaining the factors that we should take into account when determining new version of our app certainly made it clearer. Tools that we have seen, and ideas that we took out of this talk can have positive impact on most of the dev processes I got to know... not just on versioning.
+
+Lots of the stuff displayed can be found on his **[Github account](https://github.com/boennemann)**.
+<img src="https://dl.dropboxusercontent.com/s/zltv36aoy4pepyu/4.jpg?dl=0" style="width:100%; float:left; margin: 12px 0"/>
+
+At the end, the most valua on events like these is in breaks... in pauses between the talks, because that is where magic happens, where community strengthens and where networks are built. I am extremely happy that so many people stayed until the end and hang out with each other and meeting Stephan in person. That is why meetups are organized in the first place - tu build and strengthen the community and promote it's growth.]]></description><link>https://jsbelgrade.org/blog/js-belgrade-meetup-9-recap.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/js-belgrade-meetup-9-recap.md</guid><dc:creator><![CDATA[rastko]]></dc:creator><pubDate>Fri, 11 Sep 2015 11:01:39 GMT</pubDate></item><item><title><![CDATA[This October Exciting workshops and inspiring talks at Voxxed Days Belgrade]]></title><description><![CDATA[
+[Voxxed Days Belgrade - What is your favourite badge?](http://voxxeddays.com/belgrade15/wp-content/uploads/sites/8/2015/09/voxxed_badges.jpg)
+
+On October the 1st, the first Devoxx event in the Balkans is taking place in Belgrade - Voxxed Days! Organizers (our friends at [HeapSpace](http://heapspace.rs)) promise more knowledge than you can handle, access to top-notch speakers, great workshops, inspiring talks, and networking. Food, drinks and parties are all included. Well, who wouldn’t like to party with us developers? :)
+
+After you visit [the website](https://voxxeddays.com/belgrade15/), you might want to take a closer look at the [schedule](https://voxxeddays.com/belgrade15/#np-891).
+
+Here are some talks and workshops that we recommend wholeheartedly:
+
+## Developing Apps with the Wunderbar
+Philipp Richter • Workshop •
+
+The workshop will teach you how to get started developing with the Wunderbar IoT Platform. It will cover onboarding of a sensor kit to your relayr account, first steps with the sensors without coding, a live intro to the Java Script SDK and intros to individual SDKs as per request. The sensors will transmit their measurements automatically to the relayr cloud if the sensors are connected to WiFi and can then be accessed through the SDKs. Currently there is a range of the following platforms: Android, iOS/OSX, C#, Python, NodeJS, Java Script, among others.
+
+[Curious to know more?](https://voxxedbelgrade2015.sched.org/event/25c1c8434a92d5629d1845f4a23808a5?iframe=no#.VfFKJJ2qqko)
+
+## Messaging infrastructure for Internet of Things
+Dejan Bosanac • Talk •
+
+Scale changes everything. Number of connections and destinations went from dozen to thousands, number of messages increased by order of magnitude. What once was quite adequate for enterprise messaging can't scale to support "Internet of Things". We need new protocols, patterns and architectures to support this new world.
+
+[Exciting enough?](https://voxxedbelgrade2015.sched.org/event/84c89eafb03f405333c5b9a7c85d1154#.VfFc7Z2qqko)
+
+## Introduction to Web Components
+Carmen Popoviciu • Talk •
+
+If you’d like to learn more about the new set of standards, and how they pave the way we think and build the web application of the future, than you should hear out Carmen, and her talk about about Web components.
+
+♥ [Share the love for Web Components](https://voxxedbelgrade2015.sched.org/event/91d0679161c470ffec162fab5ef191c2#.VfFeNp2qqko)
+
+## Full Stack Application Development using JavaScript and NoSQL
+Tamas Piros • Workshop •
+
+The workshop would show attendees the best practices when it comes to building a single page web application using only JavaScript. We will build an application with three tiers - a backend tier which will store JSON and binary (image) documents, a middle tier using Node.js/Express and finally a front-end tier which will make use of AngularJS.
+
+[Attention, some prerequisites are necessary here!](https://voxxedbelgrade2015.sched.org/event/f15a4e5d019929dfb655e168e9cf98e9#.VfFh7Z2qqko)
+
+## Nashorn: Javascript on JVM, from Scripts to Desktop and Cloud Apps
+Bruno Borges • Talk •
+
+Nashorn is the new Javascript engine inside JDK 8. In this presentation you will see an overview of all the features in Nashorn, how to write shell scripts entirely in Javascript and how to leverage existing Java and Maven libraries, how you can use Nashorn to manage and monitor Cloud services plugging with REST APIs and SDKs, and some really cool demos that will show you all the possibilities, from running simple scripts, to fully capable Desktop applications in JavaFX.
+
+[You were born to do Nashorn? :)](https://voxxedbelgrade2015.sched.org/event/984911a4ab4c3dd2a636a6bbd1f4fad2?iframe=no#.VfFihJ2qqko)
+
+## React to Scala-JS
+Maciek Próchniak • Talk •
+
+The presentation will be introduction to Scala-JS. We'll see (through live coding demo) how (and if) it can be used to create modern web applications.
+
+Interactions with web frameworks will be shown using React framework and some simple OpenStreetMap examples.
+
+The focus of the talk is to give flavor of developing with scala for frontend and try to answer questions - is it production ready, is it worth a try?
+
+[Scala goes to the front-line](http://voxxedbelgrade2015.sched.org/event/2b97e655abb54a957feb45aac02c9d39#.VfF66Z2qpBc)
+
+---
+
+If we just jogged your curiosity, you might want to [buy tickets now](https://voxxeddays.com/belgrade15/tickets/), because they are soon to be sold out.
+
+See you in October!]]></description><link>https://jsbelgrade.org/blog/voxxed-days-belgrade.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/voxxed-days-belgrade.md</guid><dc:creator><![CDATA[milos-zikic]]></dc:creator><pubDate>Thu, 10 Sep 2015 17:34:39 GMT</pubDate></item><item><title><![CDATA[JS Belgrade Questionnaire]]></title><description><![CDATA[
+Help us to improve future meetups by filling this short questionnaire and sharing it. You'll need less than 10 minutes.
+
+Stand alone version of this questionnaire is available at this url: [https://jsbelgrade.typeform.com/to/UEtHLA](https://jsbelgrade.typeform.com/to/UEtHLA)
+
+<iframe id="typeform-full" width="100%" height="600px" frameborder="0" src="https://jsbelgrade.typeform.com/to/UEtHLA"></iframe>
+<br/>
+
+Any kind of feedback is always welcome. Contact us via [Slack](http://slack.jsbelgrade.org), [twitter](https://twitter.com/jsbelgrade) or send us an email to [jsbelgradeorg@gmail.com](mailto:jsbelgradeorg@gmail.com).]]></description><link>https://jsbelgrade.org/blog/questionnaire.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/questionnaire.md</guid><dc:creator><![CDATA[stojanovic]]></dc:creator><pubDate>Thu, 10 Sep 2015 16:35:39 GMT</pubDate></item><item><title><![CDATA[Meetup]]></title><description><![CDATA[
+After Stephan Bönnemann we have another great guest on JS Belgrade meetup.
+
+Our next meetup is on Saturday, Septembar 5, 2015 at 4pm @ [Dom Omladine](http://www.domomladine.org/).
+You can [RSVP here](http://www.meetup.com/JS-Belgrade-Meetup/events/224491354/).
+
+<img src="http://2013.jsconf.eu/speakers/images/martin-kleppe.jpeg" width="29%" style="float:left;margin:0 15px 0 0;"> Our next guest will be Martin Kleppe.
+Martin is the [HHJS](https://twitter.com/hhjs) organizer and "Head of Development" at [Ubilabs](http://www.ubilabs.net/en). He is the maniac who built the [spinning globe](http://aem1k.com/world/) in 1K of JavaScript, wrote invisible code and hacked Tetris in less than 140 bytes. He is an active speaker at conferences and loves to share the latest insights with the community.
+
+<iframe src="http://aem1k.com/world/" width="500px" height="265px"  frameBorder="0"></iframe>
+
+## Meetup info
+
+_Title:_
+Different Characters
+
+_Topics:_
+Code Golf, JavaScript, Creative coding, Hacks
+
+_Description:_
+Let us use push the limits and use our creativity to build something new: Expressive and beautiful programs that fit in 1024 bytes or even a Tweet of pure JavaScript and HTML. Warning: This talk is fun but might blow your mind and productivity.
+
+_Time and location:_
+Saturday, September 5th 2015 at 4pm @ [Dom Omladine](http://www.domomladine.org/)
+
+_RSVP:_
+This meetup is free, but we have a limited number of seats, please RSVP here: [http://www.meetup.com/JS-Belgrade-Meetup/events/224491354/](http://www.meetup.com/JS-Belgrade-Meetup/events/224491354/).
+
+_Links:_
+
+- [aem1k.com](http://aem1k.com)
+- [@aemkei on twitter](https://twitter.com/aemkei)
+
+## Our sponsors
+
+This meetup wouldn't be possible without our sponsors. Thanks!
+
+### [Vast.com](https://www.vast.com/)
+
+
+{<1>}![](http://www.staticv.net/resources/d001436470810/vast_v3/images/vast_logo.jpg)
+
+Vast provides its decision-making tools to customers and sellers in the midst of complicated purchases. Through Fortune 500 publishers such as AOL, Yahoo, USAA, Southwest and CarFax, Vast supports consumers through the lengthy sales cycles involved in the biggest monetary decisions of their lives: their homes, their cars, and their vacations.
+
+#### [Cloud Horizon](http://cloudhorizon.com/)
+
+{<2>}![](http://i.imgbox.com/tnenRZYz.png)
+
+Cloud Horizon builds web and mobile products for startups and businesses. We are a small and passionate team of people enthusiastic about technology and its possibilities. We love challenges and working with our clients to solve complex business problems. Our awesome team is our biggest asset so we are very selective when it comes to bringing in new team members. We are spread out across two offices in Montreal and Belgrade.
+
+### [Toptal](http://www.toptal.com/)
+
+{<3>}![](http://i.imgbox.com/oSlK6bbq.png)
+
+Toptal is a rapidly growing community of elite freelance software engineers. The company 100% remote, with team members distributed all over the world and collaborating constantly.]]></description><link>https://jsbelgrade.org/blog/meetup-10-martin-kleppe.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/meetup-10-martin-kleppe.md</guid><dc:creator><![CDATA[stojanovic]]></dc:creator><pubDate>Sat, 08 Aug 2015 12:00:39 GMT</pubDate></item><item><title><![CDATA[JS Belgrade meetup]]></title><description><![CDATA[
+<img src="https://dl.dropboxusercontent.com/s/mmgydcijyvlg2l6/3.jpg?dl=0" style="width:40%; float:left; margin-right: 12px"/>U subotu 17. jula, po neuobičajeno vrelom danu, grupa programera se okupila u prostorijama **Cloud Horizon**-a gde je [**Igor Terzić**](https://github.com/igorT), član [**Ember.js**](http://emberjs.com/) i **Ember-Data** tima predstavio filozofiju Ember.js-a.
+
+Igor je govorio o konceptima kojima se njihov tim vodi u stvaranju i unapređivanju onoga što Ember.js predstavlja - robustan frejmvork i ekosistem alata za razvoj JS aplikacija. Glavni akcenat bio je na integralnom sistemu alata koji je osmišljen da bude dovoljan za razvoj većine JS aplikacija (na klijentskoj strani) i trudu koji je uložen u kompatibilnost i olakšavanje rada programera.
+
+Kako je Igor plastično objasnio - Ember.js ima za cilj pojednostavljivanje donošenja odluka u prekompleksnom i svakim danom sve većem JS ekosistemu pružajući *out of the box* rešenje za sve najčešće probleme u razvoju web aplikacija. Imajući ovu ideju na umu, ukazala se potreba za visokim nivoom kompatibilnosti sa prethodnim verzijama i alatima koji omogućavaju laku migraciju između verzija Ember-a. Trud koji se ulaže u održavanje jednostavnosti rada sa Emberom, fascinantan je i prepoznat u okviru web development zajednice, a kvalitet samog ekosistema i zajednice odražave se kroz broj *velikih igrača* koji ga koriste.
+
+Značajno vreme provedeno je u detaljnom objašnjavanju čime su se vodili pri formiranju seta alata oko Ember-a i šta je veliko u planu za Ember 2.0 i naredne verzije. Predstavljene su nam optimizacije koje Ember konstantno čine bržim u renderingu i manipulaciji DOM-om. Ovde smo, takođe, videli veoma kvalitetan Ember CLI alat koji Ember stavlja rame uz rame sa velikim alatiam istog tipa iz drugih tehnologija, Ember deployment tool, Ember inspector dodatak za Chrome dev tools i Emberov testing suite.
+
+
+<img src="https://dl.dropboxusercontent.com/s/g34raoa1j5dghep/4.jpg?dl=0" style="width:50%; float:right; margin-left: 12px"/>
+
+Posle glavnog dela predavanja, usledilo je logično pitanje o [**Ember Data**](https://github.com/emberjs/data) koji je manipulaciju podacima modela, data binding i *data persistance* mehanizam od nekada velike slabosti Ember.js-a doveo do sada veoma jakog sistema potpuno agnostičnog prema korišćenom mehanizmu za sinhronizaciju podataka (JSON REST API, WebSocket streaming, Local Storage...).
+
+**Kao i uvek, glavna tema je izazvala i najinteresantniju diskusiju** te su se prisutni uključili u razgovor o filozofiji napretka JavaScript ekosistema i unapređenja tehnika alata.  Slobodan rast i hiperprodukcija rešenja, kako bi najkvalitetnija na kraju preživela mnoge kombinacije na raznim projektima u kojima ih koristimo, za većinu nas predstavlja dobar put (to je ipak nešto što su godina pokazale)... Naravno, filozofija Embera je ponuditi dobro utegnut set rešenja koji smanjuje potrebu za lutanjem (razmišljanjem) pri pokretanju projekata što ima par prednosti, ali nas vodi ka pristupu koji skoro nikada u istoriji programskih jezika nije izašao na dobro. Šansu da ide u dobrom smeru Ember.js tim vidi u činjenici da je Ember potpuno community driven i nezavistan od velikih kompanija (kao Angular od Gugla ili React od FB-a).
+
+
+<img src="https://dl.dropboxusercontent.com/s/lnb0r4c894c153k/1.jpg?dl=0" style="width:100%;]"/>
+
+**JS Belgrade Meetup \#8** dao nam je još jednu sjajnu priliku da provedemo nekoliko sati među ljudima sličnih interesovanja, čujemo odlično izlaganje vrlo kompetentnog stručnjaka i posle toga filozofiramo o svim interesantnim temama, ne nužno direktno vezanim za JavaScript.
+
+Sjajna ekipa biće ponovo na okupu u [**ICT HUB**](http://en.icthub.rs/)-u 8. avgusta kada će glavni gost biti [Stephan Bönnemann](https://github.com/boennemann) iz [Hoodie](http://hood.ie/)-a.]]></description><link>https://jsbelgrade.org/blog/js-belgrade-meetup-8.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/js-belgrade-meetup-8.md</guid><dc:creator><![CDATA[rastko]]></dc:creator><pubDate>Sun, 19 Jul 2015 16:47:39 GMT</pubDate></item><item><title><![CDATA[Meetup]]></title><description><![CDATA[
+After just a few months and a few meetups the idea of JS Belgrade has grown from "a small meetup with a few local JS developers talking about some things that they use and like" to something a bit more serious.
+So far, we had 8 meetups with some great speakers (James Halliday - Substack, Gojko Adžić, Igor Terzić, Bogdan Gavrilović, Goran Gajić and Aleksandar Simović) and we also organized a first Node School event.
+Most of the meetups were small, up to 30 people, except Angular meetup with almost 90 people. But in a near future we are planning some bigger meetups with very interesting guests from Europe.
+
+First of those meetups is on August 8, 2015 at 5pm @ [ICT Hub](http://icthub.rs/).
+You can RSVP [here](http://www.meetup.com/JS-Belgrade-Meetup/events/223872076/).
+
+Our first guest will be [Stephan Bönnemann](http://boennemann.me/).
+Stephan is a web developer, who as of recently lives in Berlin, Germany. He tries to do things that help other people to build a better web. Be it open-source projects like [Hoodie](http://hood.ie/), tooling like [semantic-release](https://github.com/semantic-release/), as well as talks about these projects or community work and conferences like [.concat()](https://conc.at/) and [Reject.JS](http://rejectjs.org/).
+
+{<1>}![](https://camo.githubusercontent.com/20fa532c739fbcbd35067c606ef9df4d0a44589b/68747470733a2f2f7062732e7477696d672e636f6d2f70726f66696c655f696d616765732f3439363232393636373734313738323031362f46744c65576241362e6a706567)
+
+On our meetup he'll speak about 3 themes - [Hoodie](http://hood.ie/), [npm](https://www.npmjs.com/) and [semantic-release](https://www.npmjs.com/package/semantic-release).
+
+### Hoodie
+
+Hoodie is an [Offline First](http://hood.ie/initiatives#offline-first), [noBackend](http://hood.ie/initiatives#nobackend) architecture.
+
+Its [Dreamcode API](http://hood.ie/initiatives#dreamcode) gives you user signup and administration, data storage, loading, synchronisation and shares, emails and payments and can be extended with [plugins](http://plugins.hood.ie/). Hoodie is written in JavaScript and [Node.JS](http://nodejs.org/) and relies on [CouchDB](http://couchdb.apache.org/).
+
+*// Description taken from [hood.ie](http://hood.ie/) website*
+
+### npm
+
+npm is lots of things.
+
+- npm is the package manager for [Node.js](http://nodejs.org/). It was created in 2009 as an [open source project](https://github.com/npm/npm) to help JavaScript developers easily share packaged modules of code.
+- The npm Registry is a public collection of packages of open-source code for Node.js, [front-end web apps](http://www.ember-cli.com/), [mobile apps](http://cordova.apache.org/), [robots](https://tessel.io/), [routers](https://linerate.f5.com/), and countless other needs of the JavaScript community.
+- npm is the command line client that allows developers to install and publish those packages.
+
+*// Description taken from [npm](https://www.npmjs.com/) website*
+
+### semantic-release
+
+At its core semantic-release is a set of conventions that gives you entirely automated, semver-compliant package publishing. Luckily these conventions make sense on their own, like having meaningful commit messages.
+
+> There are over 160.000 packages on npm today, which makes it the biggest ecosystem out there. Using the right packages in your applications makes JavaScript a joy to develop. But if even immensely popular libraries fail to declare and communicate breaking changes, how can we trust over 50.000 strangers who developed all these modules?
+>
+> Currently we can’t. Let me show you how you can write confidence-inspiring modules with breaking change detection and fully automated and tested releases including changelogs. Machines do a way better job with this than buggy humans.
+
+*// Description taken from semantic-release README file, quote by Stephan*
+
+### RSVP
+
+This event is free, but since we are limited to 150 people you need to RSVP [here](http://www.meetup.com/JS-Belgrade-Meetup/events/223872076/).
+
+## What's next?
+
+We are preparing a few more great meetups. Our next guest will be [Martin Kleppe](https://www.youtube.com/watch?v=T3xMyZH93i8) on September 5, 2015. More info soon.
+
+## Our sponsors
+
+This meetup wouldn't be possible without our sponsors, especially Seven Bridges Genomics and ICT Hub! Thanks!
+
+### [Seven Bridges Genomics](https://www.sbgenomics.com/)
+
+
+{<2>}![](https://static.sbgenomics.com/img/landing/logo.png)
+
+[Seven Bridges Genomics](https://www.sbgenomics.com/) is building the most advanced cloud computing
+platform for genomics data analysis on the market. We democratize
+genomics by enabling researchers anywhere to process and understand
+genomic data faster and more efficiently than ever, at any scale. This
+allows them to focus on advancing their fields and making personalized
+medicine a reality.
+
+The flexibility of our platform, in the hands of our large team of
+experts, allows us to collaborate with a wide variety of distinguished
+pharmaceutical, health-care, and academic partners. We help these
+partners investigate and treat all kinds of genetic disorders. We are
+also excited to have been selected to participate in the National
+Cancer Institute's Cancer Cloud Pilot, which will accelerate and
+expand our vision.
+
+### Other
+
+**[ICT Hub](http://icthub.rs/)**
+
+ICT HUB is a business incubator for technological entrepreneurship.
+
+ICT HUB’s goal is to help technology-based entrepreneurs successfully develop their product and enable them to transition into the financing stage and enter the market.
+
+We offer young people modern workspace and full mentoring, technical and infrastructural support so that they can turn their ideas into a successful business.
+
+**[Toptal](http://www.toptal.com/)**
+
+Toptal is a rapidly growing community of elite freelance software engineers. The company 100% remote, with team members distributed all over the world and collaborating constantly.
+
+**[Cloud Horizon](http://cloudhorizon.com/)**
+
+Cloud Horizon builds web and mobile products for startups and businesses. We are a small and passionate team of people enthusiastic about technology and its possibilities. We love challenges and working with our clients to solve complex business problems. Our awesome team is our biggest asset so we are very selective when it comes to bringing in new team members. We are spread out across two offices in Montreal and Belgrade.]]></description><link>https://jsbelgrade.org/blog/meetup-9-stephan-bonnemann.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/meetup-9-stephan-bonnemann.md</guid><dc:creator><![CDATA[stojanovic]]></dc:creator><pubDate>Wed, 15 Jul 2015 18:14:39 GMT</pubDate></item><item><title><![CDATA[Node School Recap]]></title><description><![CDATA[
+Prvi Nodeschool u Beogradu uspešno je održan 4. jula u prijatnim prostorijama ICTHub-a. Radionicu koja je open source varijanta učenja programiranja mogli ste osim samostlno pohadjati i uz pomoć mentora na ovom dogadjaju. Prvobitno je bilo plairano 25 učesnika, ali dobrom voljom organizatora bilo nas je 38.
+
+Nodeschool moderatori su bili prisutni od samog početka sesije tokom instalacija potrebnih alata, tako da je ovo bila idealna prilika za sve novajlije u JS svetu da krenu od osnova Java Script-a.
+
+Na samom početku mogli ste odabrati jednu od tri radionice, koje su bile održane istovremeno u tri različite prostorje. Svaki učesnik je na svom računaru prelazio JS, Node ili Express. JS na kome su se obradjivale osnove Java Scripta , Node osnove NodeJS-a i Express framework. Sve radionice možete naći ovde nodeschool.io/#workshoppers
+
+Nagrada za učesnike koji su najbrže završili kurs bila je pisanje skripte za pokretanje drona. Individualno ili zajedničkim snagama samo najiskusniji su došli do nivoa igranja sa dronom.
+ICTHub je na par sati zablistao koncentracijom callback-ova koji su izviralli iz nasih misli preko tastera postajali praktičan kod.
+Mentori su spretno uspeli da osete energiju svakog ucesnika i pomognu tamo gde je bilo potrebno da se prebrode izazovi.
+
+Pohvala organizatorima i učesnicima koji su omogućili da prvi Node School oživi na našim prostorima, ali to nije kraj - vidimo se na sledećem Nodeschool-u uskoro.]]></description><link>https://jsbelgrade.org/blog/node-school-recap.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/node-school-recap.md</guid><dc:creator><![CDATA[nena]]></dc:creator><pubDate>Tue, 14 Jul 2015 16:03:39 GMT</pubDate></item><item><title><![CDATA[Node School]]></title><description><![CDATA[
+Node School je skup interaktivnih open source kurseva za učenje web programiranja. Svi kursevi ("workshoppers") su dostupne na sajtu http://nodeschool.io/#workshoppers i svako ih može prolaziti samostalno ili na nekoj od radionica koje se organizuju u preko 100 gradova širom sveta.
+
+JS Belgrade održava jednu takvu radionicu 4. jula u ICT Hubu u Beogradu, što će ujedno biti i prvi Node School u Srbiji.
+
+Koncept Node School radionica je sledeći: svi polaznici na zasebnim računarima prolaze kroz odabrani interaktivni kurs uz prisustvo mentora čiji je zadatak da pomognu da svako što lakše i sa razumevanjem prođe kroz ceo kurs.
+
+Radionica će trajati 1 dan i besplatna je za sve učesnike. Biće mesta za samo 20 ljudi, pa je potrebno prijaviti se što pre na Node School Belgrade sajtu - http://nodeschool.io/belgrade/.
+Prijave su otvorene do petka 26. juna, a svi prijavljeni će biti obavešteni u ponedeljak 29. juna da li su odabrani da prisustvuju.
+Svi polaznici prve radionice moraju da poseduju laptop (potrudićemo se da na narednim radionicama i to obezbedimo za one kojima je potreban).
+
+Radionica je namenjena početnicima i ljudima srednjeg nivoa znanja. Kurs koji će se prelaziti je uvod u Node.js - "learn you node" i za njega nije potrebno predznanje samog Node.js-a, ali je poželjno bar osnovno poznavanje JavaScripta.
+Ako bude dovoljno zainteresovanih, posebna grupa ili grupe će prelaziti neki drugi kurs, npr. uvod u JavaScript - "javascripting" (kurs namenjen početnicima u JavaScriptu, za njega nije potrebno predznanje) ili osnove Express.js, najpopularnijeg Node frameworka - "ExpressWorks" (potrebno poznavanje Node.js-a).
+
+Svi koji su zainteresovani da budu mentori su takođe dobrodošli i mogu se prijaviti putem istog linka.
+
+Nakon prve Node School radionice, JS Belgrade planira da organizuje još ovakvih radionica tokom ove godine, za više informacija možete pratiti našu mailing listu (http://eepurl.com/bq4o41) ili naš sajt i twitter account.
+
+Svi koji žele da organizuju slične radionice u Beogradu ili bilo kom drugom gradu u Srbiji mogu da nam se jave, trudićemo se da pomognemo. Cilj je svakako da se slične radionice održavaju što češće i da što više ljudi ima priliku da nauči JavaScript i NodeJS.
+
+Za sva pitanja možete nas kontaktirati putem [twittera](https://www.twitter.com/jsbelgrade), [slacka](http://slack.jsbelgrade.org) ili slanjem emaila na [jsbelgradeorg@gmail.com](mailto:jsbelgradeorg@gmail.com).
+
+### ICT Hub
+
+S obzirom da je ovo već druga saradnja, a očekuje nas i još puno meetupa i radionica, želimo da se zahvalimo [ICT Hubu](icthub.rs) što nam je ponovo izašao u susret i dozvolio nam da koristimo njihov prostor.
+
+Ako ste startup ili freelancer i potreban vam je prostor za rad, iskreno vam preporučujemo ICT Hub. Za samo 65 eura mesečno dobijate:
+
+- Mesta za rad dostupno 24h sa svim pratećim troškovima,
+- Hardver i softver na najsavremenijoj Cloud Computing platformi,
+- Mentorstvo i jednogodišnji edukativni program,
+- Svu potrebnu kancelarijsku opremu i materijal,
+- Kompletnu logističku i tehničku podršku,
+- Savetodavnu pravnu, knjigovodstvenu i marketinšku podršku,
+- Pomoć u radu sa poslovnim procedurama i pravnim pitanjima,
+- Pristup mreži tehnološkog i tržišnog znanja,
+- Pomoć pri izradi poslovnog, strateškog i marketing plana,
+- Olakšan pristup tržištu,
+- Priliku za saradnja sa partnerima na projektima,
+- Organizovane posete događajima na temu preduzetništva (poslovno umrežavanje, edukacije, stručni paneli)...
+
+Za više informacija i prijavu posetite [njihov sajt](http://icthub.rs/prijavi-se/), a ako uz to naglasite da stižete preko JS Belgrade cena će biti i malo niža - 60 eura :)]]></description><link>https://jsbelgrade.org/blog/node-school.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/node-school.md</guid><dc:creator><![CDATA[stojanovic]]></dc:creator><pubDate>Mon, 15 Jun 2015 13:54:39 GMT</pubDate></item><item><title><![CDATA[Meetup]]></title><description><![CDATA[
+U nedelju 17. maja u prostorijama Cloud Horizona održan je 6. JS Belgrade meetup. Događaju je prethodio JSConf Budapest na kome su [Slobodan](https://twitter.com/slobodan_) i [Aleksandar](https://twitter.com/simalexan) upoznali dosta predavača i većinu njih uspeli da ubede da u narednom periodu posete Beograd.
+
+U goste nam je prvi došao James Halliday poznatiji kao [Substack](http://substack.net). James je kako on sebe naziva, hobi programer, koji iza sebe ima preko 500 Node.js modula. Takođe, on je napravio i  [browserify](http://browserify.org/).
+Meetup nije imao određenu temu, ali je James pripremio nekoliko koje su bile i više nego interesantne.
+
+Nakon što je ispričao kratku priču o sebi i hackerspace-u u Oaklandu, demonstrirao nam je peer to peer chat koji je bio ispraćen diskusijom o Web soketima i webRTCu, a zatim nam je pokazao i svoj [peernet](https://github.com/substack/peernet) projekat.
+
+Sledeća stvar bila je industrijska robotska ruka koja markerom crta sliku koja joj je prethodno prosleđena. Naravno, node skripta pre svega obrađuje svg u određeni format koji se dalje preko serijskog porta prosleđuje robotu.
+
+Jedna od stvari koja svakog programera čini boljim je svakako testiranje softvera, pa ni to nije preskočeno. James je ukratko demonstrirao kako on testira softver i upoznao nas sa svojim modulom [tape](https://github.com/substack/tape) koji koristi u te svrhe.
+
+Jedna od najzanimljivijih stvari bila je renderovanje virtualnog doma na serveru i klijentu, live update nakon dodavanja slike u bazu. Radi demonstracije, James je napisao image content server i ceo kod dostupan je na [GitHub-u](https://gist.github.com/substack/f1e2752a08a2c782f467).
+
+Nakon ove uzbudljive, ali i naporne programerske seanse otišli smo u obližnji kafić da se počastimo pivom :)
+
+<a href="https://www.flickr.com/photos/128917556@N08/17299522094"><img src="https://c4.staticflickr.com/8/7672/17299522094_4206626fec_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/17301626013" ><img src="https://c2.staticflickr.com/6/5323/17301626013_a60187fc4f_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/17922702521" ><img src="https://c4.staticflickr.com/8/7787/17922702521_b501787353_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/17922125925" ><img src="https://c1.staticflickr.com/9/8775/17922125925_58e9d7828b_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/17299562774" ><img src="https://c1.staticflickr.com/9/8809/17299562774_d3a8d31965_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/17301671613" ><img src="https://c1.staticflickr.com/9/8843/17301671613_ce17bab016_q.jpg" width="150" height="150"></a>
+
+Do narednog meetupa, možete koristiti [Slack](https://jsbelgrade.slack.com/) za sva dodatna pitanja i diskusije. Ko želi invitation za Slack može da ga dobije ovde: https://jsbelgrade-slack.herokuapp.com/.
+
+Vidimo se na nekom od narednih meetupa.]]></description><link>https://jsbelgrade.org/blog/meetup-6-james-halliday-substack.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/meetup-6-james-halliday-substack.md</guid><dc:creator><![CDATA[dusan]]></dc:creator><pubDate>Fri, 22 May 2015 13:54:39 GMT</pubDate></item><item><title><![CDATA[Meetup]]></title><description><![CDATA[
+U subotu 18. aprila u ICT Hubu održan je 5. JS Belgrade meetup. Ovo je bio naš najveći meetup do sada, prisustvovalo je preko 70 ljudi, što je, kao što je Bogdan rekao, verovatno više nego na prethodna 4 meetupa zajedno.
+
+Tema ovog meetupa je bio Angular.js, [Aleksandar Simović](https://twitter.com/simalexan) je pričao detaljno o Angular.js konceptima, a [Bogdan Gavrilović](https://twitter.com/ispijac_kafe) se uključivao sa pričom o najboljim praksama. I pored većeg broja ljudi meetup je ostao prilično interaktivan, bilo je puno pitanja i komentara u toku same prezentacije.
+
+Prezentacija je kao i obično dostupna na [SlideShareu](http://www.slideshare.net/jsbelgrade/angularjs-concepts-in-depth):
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/tEYz5pvBPa1Unf" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:35px; max-width: 100%;" allowfullscreen> </iframe>
+
+Par fotografija sa meetupa možete videti [ovde](https://www.dropbox.com/sc/nfe4aobolkm87im/AADmkdsJ8_F14y6RY5oDVvsDa#/) zahvaljujući [Ivanu Ćurkoviću](https://twitter.com/ivan_curkovic) i Tamari Gavrić.
+
+S obzirom da je Angular.js prilično velika tema, neke od tema i pitanja su ostali nepokriveni.
+Jedno od pitanja bez konkretnog odgovora je bilo vezano za one time binding i kompleksne izraze, Aleksandar je pripremio [plunker](http://plnkr.co/edit/r02niW1Ui1dRKFjMsYMS?p=info) koji pokazuje da to radi kao što je očekivano.
+
+> Sustina “::” za one time binding je da Angular kada te simbole vidi u samom ng-bindu ili expressionu da oznaci (flagguje) tu promenljivu kao one-time bind promenljivu i onda on ukloni te “::” duple dvotacke pre compile-a
+tako da kompleksni izrazi, kao sto je i dato u primeru rade.
+
+Do narednog meetupa, možete koristiti [Slack](https://jsbelgrade.slack.com) za sva dodatna pitanja i diskusije. Ko želi invitation za Slack može da ga dobije ovde: [https://jsbelgrade-slack.herokuapp.com/](https://jsbelgrade-slack.herokuapp.com/).
+
+<script async defer src="https://jsbelgrade-slack.herokuapp.com/slackin.js"></script>
+<br/>
+
+
+Na kraju, hvala [ICT Hubu](http://icthub.rs) što nas je ugostio, hvala [Elance/oDesk](http://elance-odesk.com) i [Cloud Horizonu](http://cloudhorizon.com) za podršku i pomoć prilikom organizacije meetupa i hvala [UX Passion](http://www.uxpassion.com/) za [Wall of Tweets](http://walloftweets.net/). Takođe hvala [PHP Srbija](http://phpsrbija.rs) i svima ostalima koji su nas podržali.
+I na kraju hvala svima koji su prisustvovali meetupu. Nadam se da vam je bilo zanimljivo.
+
+Vidimo se na nekom od narednih meetupa.
+
+---------
+
+Par korisnih linkova koji su pomenuti na meetupu:
+
+- [Broccoli](http://broccolijs.com/) - The asset pipeline for ambitious applications.
+- [Restangular](https://github.com/mgonto/restangular) - AngularJS service to handle Rest API Restful Resources properly and easily
+- [Angular 2 Github repository](https://github.com/angular/angular)
+- [httpexample](https://gist.github.com/aysbg/ff8a1792047d4a4a0ccd) - primer koji je Bogdan pominjao
+]]></description><link>https://jsbelgrade.org/blog/js-belgrade-meetup-5-recap.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/js-belgrade-meetup-5-recap.md</guid><dc:creator><![CDATA[stojanovic]]></dc:creator><pubDate>Sun, 19 Apr 2015 13:54:39 GMT</pubDate></item><item><title><![CDATA[JS Belgrade Meetup]]></title><description><![CDATA[
+__Tema:__ Angular.js - detaljni pregled.
+
+__Program:__
+16:00 - 16:20 - Uvod
+16:20 - 17:20 - "Angular.js Concepts In-Depth" - [Aleksandar Simović](https://twitter.com/simalexan) + Q&A
+17:30 - 18:30 - "Dobra praksa i pristup razvoju aplikacija" - [Bogdan Gavrilović](https://twitter.com/ispijac_kafe) + Q&A
+18:30 - 19:00 - Razno
+
+__Gde i kada:__ [ICT Hub](http://icthub.rs/), subota 18. april u 16:00.
+
+__Prijavi se:__ [http://www.meetup.com/JS-Belgrade-Meetup/events/221486742/](http://www.meetup.com/JS-Belgrade-Meetup/events/221486742/)
+
+O osnovama Angular.js, kao jednog od najpopularnijih front end frameworka, smo pričali i na prvom JS Belgrade Meetupu.
+Zbog velikog interesovanja za ovu temu i popularnosti samog frameworka, odlučili smo da tema petog meetupa bude ponovo Angular, ali ovog puta detaljnije - pričaćemo o svim delovima razvoja Angular.js 1.x SPA aplikacije,  best practices, kako koristiti factories, services i sl., pogledaćemo source code, videćemo šta sve možemo da očekujemo od verzija 2...
+
+S obzirom da smo na prethodna četiri meetupa imali vrlo ograničen kapacitet i veliki broj zainteresovanih, ovog puta smo, uz pomoć ICT Huba i oDesk/Elance, rešili da to promenimo - peti JS Belgrade Meetup će se održati u subotu 18. aprila u ICT Hubu i meetupu će, konačno, moći da prisustvuje veći broj ljudi.
+
+Više informacija i detaljan program meetupa će biti objavljeni ovde i na JS Belgrade sajtu u narednih par dana.
+
+Iako imamo veći kapacitet, prijavljivanje je i ovog puta obavezno.
+
+Vidimo se.
+
+-----
+
+######Prijatelji meetupa
+
+
+![](https://dl.dropboxusercontent.com/u/63393755/Slobodan/jsbelgrade/elance-odesk.jpg)
+__Elance/oDesk__
+Elance-oDesk is reinventing the way we work. Today, more than 2 million businesses tap into Elance and oDesk to find, hire, and pay the world’s best freelancers, making it easier than ever to build successful companies and thriving careers.
+Innovative global enterprises, small businesses, and startups alike can connect with the world’s most talented developers, designers, writers, marketers, support reps, admins, and more. If your job can be done online, you can hire the best person to do it. Period. And that’s why business as usual just got a lot better.
+
+![](https://dl.dropboxusercontent.com/u/63393755/Slobodan/jsbelgrade/icthub.jpeg)
+__ICT Hub__
+ICT Hub was created to stimulate the technological entrepreneurship among the young people in Serbia, by providing them a chance to start their own business. ICT Hub is a no equity incubator. The founders and investors are DNA Communications and Orion telekom, in cooperation with USAID.
+
+![](https://dl.dropboxusercontent.com/u/63393755/Slobodan/jsbelgrade/cloudhorizon.png)
+__Cloud Horizon__
+Cloud Horizon is an innovative web and mobile application development studio. Our awesome team works with North American startups to create new markets and solve complex business challenges using PHP and JavaScript as our main technologies.]]></description><link>https://jsbelgrade.org/blog/js-belgrade-meetup-5.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/js-belgrade-meetup-5.md</guid><dc:creator><![CDATA[stojanovic]]></dc:creator><pubDate>Wed, 01 Apr 2015 11:35:39 GMT</pubDate></item><item><title><![CDATA[JS Belgrade meetup]]></title><description><![CDATA[
+U subotu 21. marta u prostorijama [Cloud Horizona](http://cloudhorizon.com) održan je četvrti JS Belgrade Meetup na kome je prisustvovalo 18 osoba.
+
+Tema ovog meetupa je bio React, pričali smo o virtuelnom DOMu, JSXu, problemu koji React rešava i sl. Dodatna diskusija o virtuelnom DOMu ostaje za neki naredni meetup.
+
+Aleksandrova prezentacija je na [slideshareu](http://www.slideshare.net/jsbelgrade/intro-to-reactjs):
+<iframe src="//www.slideshare.net/slideshow/embed_code/46131898" width="640" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <a href="//www.slideshare.net/jsbelgrade/intro-to-reactjs" title="JS Belgrade Meetup #4: Intro to React.js by Aleksandar Simovic" target="_blank">JS Belgrade Meetup #4: Intro to React.js by Aleksandar Simovic</a> from <a href="//www.slideshare.net/jsbelgrade" target="_blank">JS Belgrade</a></div>
+
+A evo i par fotografija sa meetupa:
+<a href="https://www.flickr.com/photos/128917556@N08/16891658402" title="Untitled by JS Belgrade Meetup, on Flickr"><img src="https://farm9.staticflickr.com/8713/16891658402_507c5dc206_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/16892654645" title="Untitled by JS Belgrade Meetup, on Flickr"><img src="https://farm9.staticflickr.com/8693/16892654645_67f0c1d170_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/16270268464" title="Untitled by JS Belgrade Meetup, on Flickr"><img src="https://farm8.staticflickr.com/7601/16270268464_4746120a0c_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/16866975916" title="Untitled by JS Belgrade Meetup, on Flickr"><img src="https://farm9.staticflickr.com/8738/16866975916_892589e996_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/16891426712" title="Untitled by JS Belgrade Meetup, on Flickr"><img src="https://farm8.staticflickr.com/7627/16891426712_1cae15b739_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/16866745226" title="Untitled by JS Belgrade Meetup, on Flickr"><img src="https://farm8.staticflickr.com/7607/16866745226_b89e2a6e6f_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/16270502574" title="Untitled by JS Belgrade Meetup, on Flickr"><img src="https://farm8.staticflickr.com/7649/16270502574_020b4dc907_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/16272882833" title="Untitled by JS Belgrade Meetup, on Flickr"><img src="https://farm9.staticflickr.com/8739/16272882833_a31293b71d_q.jpg" width="150" height="150"></a>
+
+Hvala svima koji su učestvovali na četvrtom JS Belgrade Meetupu.
+
+Vidimo se u aprilu!]]></description><link>https://jsbelgrade.org/blog/js-belgrade-meetup-4-recap.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/js-belgrade-meetup-4-recap.md</guid><dc:creator><![CDATA[stojanovic]]></dc:creator><pubDate>Sun, 22 Mar 2015 13:37:39 GMT</pubDate></item><item><title><![CDATA[JS Belgrade meetup]]></title><description><![CDATA[
+Vreme je za još jedan JS Belgrade Meetup.
+
+Ovog puta ćemo pričati o Reactu.
+
+React je sve popularnija JS biblioteka. Facebook je opisuje kao biblioteku za pravljenje user interfacea i kaže da je ljudi često koriste kao V u MVCu.
+Više o Reactu ćemo saznati od [Aleksandra](https://twitter.com/simalexan).
+
+Meetup će biti održan u subotu 21. marta u 17h u prostorijama [Cloud Horizona](http://cloudhorizon.com).
+
+_Broj mesta je ograničen, pa je prijava kao i do sada obavezna._
+
+Link za prijavu: [http://www.meetup.com/JS-Belgrade-Meetup/events/221013901/](http://www.meetup.com/JS-Belgrade-Meetup/events/221013901/)]]></description><link>https://jsbelgrade.org/blog/js-belgrade-meetup-4.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/js-belgrade-meetup-4.md</guid><dc:creator><![CDATA[stojanovic]]></dc:creator><pubDate>Sun, 08 Mar 2015 21:45:39 GMT</pubDate></item><item><title><![CDATA[JS Belgrade meetup]]></title><description><![CDATA[
+U subotu 14. februara u prostorijama [Cloud Horizona](https://cloudhorizon.com/) održan je treći JS Belgrade Meetup na kome je prisustvovalo 16 osoba.
+
+Na ovom meetupu smo pričali o testiranju - tema su bili Jasmine, Mocha, Chai, Karma, Protractor i drugi.
+
+Prezentaciju je dostupna na [SlideShareu](http://www.slideshare.net/jsbelgrade/js-belgrade-meetup-3-testiranje), a kod koji je Bogdan koristio kao primer na [GitHubu](https://github.com/JSBelgrade/testiranje_js).
+
+<a href="https://www.flickr.com/photos/128917556@N08/16535169632" title="IMG_9985 by JS Belgrade Meetup, on Flickr"><img src="https://farm8.staticflickr.com/7364/16535169632_e42a49811b_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/16349951129" title="IMG_9986 by JS Belgrade Meetup, on Flickr"><img src="https://farm8.staticflickr.com/7289/16349951129_7291ff035d_q.jpg" width="150" height="150"></a>
+
+
+Više informacija o testiranju JavaScripta:
+
+- [Jasmine](http://jasmine.github.io/)
+- [Mocha](http://mochajs.org/)
+- [Chai](http://chaijs.com/)
+- [Karma](http://karma-runner.github.io/0.12/index.html)
+- [Protractor](http://angular.github.io/protractor/#/)
+- Robert Martins - [Clean Architecture and Design](https://www.youtube.com/watch?v=asLUTiJJqdE), [twitter](https://twitter.com/unclebobmartin), [Clean Coders](http://cleancoders.com/)
+
+Hvala svima koji su učestvovali na trećem JS Belgrade Meetupu.
+
+Vidimo se u martu!]]></description><link>https://jsbelgrade.org/blog/js-belgrade-meetup-3-recap.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/js-belgrade-meetup-3-recap.md</guid><dc:creator><![CDATA[stojanovic]]></dc:creator><pubDate>Sun, 15 Feb 2015 12:36:39 GMT</pubDate></item><item><title><![CDATA[JS Belgrade meetup]]></title><description><![CDATA[
+Vreme je za naredni JS Belgrade Meetup.
+
+Ovog puta ćemo pričati o testiranju. Tema je prilično opširna i nećemo stići da pokrijemo sve, ali ćemo sigurno čuti puno zanimljivih stvari od [Dejana](https://twitter.com/dejan_dimic) i [Bogdana](https://twitter.com/ispijac_kafe).
+
+Meetup će biti održan 14. februara u 17h u prostorijama [Cloud Horizona](http://cloudhorizon.com).
+
+_Broj mesta je ograničen, pa je prijava kao i do sada obavezna._
+
+S obzirom da je waiting lista bila neočekivano velika za prethodni meetup ovog puta smo odlučili da proširimo kapacitet i probamo malo drugačiji pristup.
+Na ovom meetupu imamo mesta za 20ak ljudi.
+Na [meetup.com](http://www.meetup.com/JS-Belgrade-Meetup/events/220064562/) je 15 ljudi već uspelo da se prijavi i pre nego što je meetup zvanično objavljen!
+Za ostalih par mesta možete da se prijavite slanjem maila na [jsbelgradeorg@gmail.com](mailto:jsbelgradeorg@gmail.com).
+
+Na žalost ni ovog puta neće biti mesta za sve zainteresovane. Potrudićemo se da za naredni meetup dodatno povećamo kapacitet.]]></description><link>https://jsbelgrade.org/blog/js-belgrade-meetup-3.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/js-belgrade-meetup-3.md</guid><dc:creator><![CDATA[stojanovic]]></dc:creator><pubDate>Fri, 30 Jan 2015 18:36:39 GMT</pubDate></item><item><title><![CDATA[Teme meetupa]]></title><description><![CDATA[
+Svaki JS Belgrade Meetup ima jednu glavnu temu, pored te teme, naravno, diskutujemo i o svemu ostalom vezanom za JavaScript.
+
+Do sada smo pričali o AngularJS frameworku i o Browserify i Webpack module bundlerima, na trećem meetupu ćemo pričati o testiranju JavaScripta.
+Neke od predloženih tema za naredne meetupe su: NodeJS i io.js, React, EmberJS, ES6, Angular 2, Cordova/Phonegap i Ionic...
+
+O čemu biste vi želeli da diskutujete i slušate na nekom od narednih meetupa?
+Pošaljite nam svoje predloge u komentarima ispod ili putem twittera.
+
+Teme koje su do sada predložene putem twittera i maila:
+
+- [web components/polymer](https://twitter.com/goschevski/status/554751064570744833)
+- [ES6 i funkcionalno programiranje](https://twitter.com/praetoriaen/status/554751583607857154)
+- [Gulp, REST API u nodejs, hibridne aplikacije](https://twitter.com/Crazy_Developer/status/554757184526233601)
+- Arduino (JavaScript i hardware)
+- [nodejs/api, optimizacija nodejs, grunt/gulp (razlika u tehnologiji i kodu), bower, yeoman](https://twitter.com/egdfer/status/556185045715939328)
+- [JS i muzika](https://twitter.com/egdfer/status/556195277032656896)
+- Angular arhitektura
+- Angular best coding practices
+- Controller as sintaksa
+- Angular 1.4, do 2.0 promene koje nas očekuju
+- Pisanje angular koda koji je testabilan
+- UI-router vs native router
+- Predstavljanje editora (što da ne, i to je sastavni deo posla)
+- ES6
+- Budućnost JS-a
+- Dart
+- Gulp vs grunt
+- CI tool of choice (TeamCity, Jenkins, Bamboo...)
+- Express ili neki derivat
+- Male tajne zanata - siguran sam da svako od nas ima gomilu trikova koje je pokupio negde, koji olakšavaju život drastično, a za koje ljudi ne znaju
+- Performanse i optimizacija
+- JS paterni i varijante
+- JS gotchas, ili: ne možeš da veruješ šta me snašlo
+- ReactJS
+- WinJS
+
+## Teme dosadašnjih meetupa
+
+*Ova lista će biti updateovana svakog meseca*
+
+1. [AngularJS](http://www.jsbelgrade.org/js-belgrade-meetup/)
+2. [Browserify i Webpack](http://www.jsbelgrade.org/js-belgrade-meetup-2-recap/)
+3. [Testiranje](http://www.jsbelgrade.org/meetup-3-recap/)
+4. [React](http://www.jsbelgrade.org/js-belgrade-meetup-4/)
+
+## Prijavite novu temu
+
+<iframe src="https://docs.google.com/forms/d/1ML6BpwHt2IkcUCCB8tPMQTM2Z92-cYDuV0R6CDJM2os/viewform?embedded=true" width="640" height="1680" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>]]></description><link>https://jsbelgrade.org/blog/teme.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/teme.md</guid><dc:creator><![CDATA[stojanovic]]></dc:creator><pubDate>Mon, 12 Jan 2015 02:34:39 GMT</pubDate></item><item><title><![CDATA[JS Belgrade Meetup]]></title><description><![CDATA[
+U subotu 10. januara u prostorijama [Cloud Horizona](http://cloudhorizon.com) održan je drugi JS Belgrade Meetup kojem je prisustvovalo 14 osoba.
+
+Tema ovog meetupa je bila "Browserify i Webpack", ali smo pored toga pričali i o Reactu, NodeJSu i io.js, testiranju i mnogim drugim temama (uglavnom) vezanim za JavaScript.
+
+Prezentaciju [Gorana Gajića](https://twitter.com/feroc1ty) o Webpacku možete videti ovde: [http://slides.com/feroc1ty/webpack](http://slides.com/feroc1ty/webpack).
+[Bogdan](https://twitter.com/ispijac_kafe) je o Browserify pričao uz live code primer.
+
+Naredni JS Belgrade Meetup će biti održan u subotu 14. februara, a tema će biti testiranje JavaScript koda.
+
+Par fotografija sa ovog meetupa možete videti na Flickru zahvaljujući [Ivanu Ćurkoviću](https://twitter.com/ivan_curkovic):
+<a href="https://www.flickr.com/photos/128917556@N08/16063135867" title="DSC_0948 by JS Belgrade Meetup, on Flickr" target="_blank"><img src="https://farm9.staticflickr.com/8608/16063135867_819740b6be_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/16063135847" title="DSC_0947 by JS Belgrade Meetup, on Flickr" target="_blank"><img src="https://farm8.staticflickr.com/7506/16063135847_63aa4dd7f9_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/16063136147" title="DSC_0946 by JS Belgrade Meetup, on Flickr" target="_blank"><img src="https://farm9.staticflickr.com/8580/16063136147_c8295578db_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/16063136137" title="DSC_0945 by JS Belgrade Meetup, on Flickr" target="_blank"><img src="https://farm9.staticflickr.com/8671/16063136137_090704bed3_q.jpg" width="150" height="150"></a><a href="https://www.flickr.com/photos/128917556@N08/16063136057" title="DSC_0944 by JS Belgrade Meetup, on Flickr" target="_blank"><img src="https://farm8.staticflickr.com/7524/16063136057_beef23c4e7_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/16247333881" title="p1 by JS Belgrade Meetup, on Flickr" target="_blank"><img src="https://farm9.staticflickr.com/8578/16247333881_1df01de10b_q.jpg" width="150" height="150"></a> <a href="https://www.flickr.com/photos/128917556@N08/16249183785" title="p2 by JS Belgrade Meetup, on Flickr" target="_blank"><img src="https://farm8.staticflickr.com/7559/16249183785_2349f8600f_q.jpg" width="150" height="150"></a>
+
+Više o Browserifyu i Webpacku možete saznati na sledećim linkovima:
+
+- [Browserify](http://browserify.org/)
+- [Webpack](http://webpack.github.io/)
+- [Browserify for Webpack users](https://gist.github.com/substack/68f8d502be42d5cd4942)
+- [Webpack for Browserify users](http://webpack.github.io/docs/webpack-for-browserify-users.html)
+
+![](http://www.lilleweb.fr/src/articles/browserify-logo.png) ![](https://avatars1.githubusercontent.com/u/2105791?v=3&s=200)
+
+Hvala svima koji su učestvovali na drugom JS Belgrade Meetupu.
+
+Vidimo se u februaru!]]></description><link>https://jsbelgrade.org/blog/js-belgrade-meetup-2-recap.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/js-belgrade-meetup-2-recap.md</guid><dc:creator><![CDATA[stojanovic]]></dc:creator><pubDate>Sun, 11 Jan 2015 00:54:39 GMT</pubDate></item><item><title><![CDATA[JS Belgrade meetup]]></title><description><![CDATA[
+CommonJS ili AMD?
+Da li koristite Browserify? I da li ste ikada čuli za Webpack?
+
+Tema drugog JS Belgrade meetupa će biti baš [Browserify](http://browserify.org/) i [Webpack](http://webpack.github.io/), ali ćemo po običaju pričati i o drugim stvarima vezanim za JavaScript.
+
+Meetup će biti održan 10. januara u 17h u prostorijama [Cloud Horizona]((http://cloudhorizon.com)).
+Prijave i više informacija o lokaciji: [http://www.meetup.com/JS-Belgrade-Meetup/events/219547028/](http://www.meetup.com/JS-Belgrade-Meetup/events/219547028/).
+
+**Prijavljivanje je obavezno zbog ograničenog broja mesta.**
+]]></description><link>https://jsbelgrade.org/blog/js-belgrade-meetup-2.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/js-belgrade-meetup-2.md</guid><dc:creator><![CDATA[stojanovic]]></dc:creator><pubDate>Fri, 02 Jan 2015 18:36:39 GMT</pubDate></item><item><title><![CDATA[JS Belgrade meetup]]></title><description><![CDATA[
+U subotu 27. decembra održan je prvi JS Belgrade meetup sa temom "AngularJS - juče, danas i sutra".
+
+Bilo nas je 11 i meetup je bio vrlo zanimljiv.
+[Bogdan Gavrilović](https://twitter.com/ispijac_kafe) je pričao o AngularJSu i načinu na koji ga koriste u chess.com, zatim se diskusija spontano proširila na Angular 2, Backbone, Ember, node.js, testiranje koda i još mnogo drugih tema.
+
+Slajdove Bogdanove prezentacije možete videti [ovde](http://www.slideshare.net/jsbelgrade/angularjs-jue-danas-sutra), a kod koji je koristio kao primer je dostupan na [Githubu](https://github.com/JSBelgrade/belgradeJS_meetup).
+
+Naredni meetup će biti održan 10. januara u 17h u prostorijama [Cloud Horizona](http://cloudhorizon.com).
+
+Vidimo se!
+]]></description><link>https://jsbelgrade.org/blog/js-belgrade-meetup.md</link><guid isPermaLink="true">https://jsbelgrade.org/blog/js-belgrade-meetup.md</guid><dc:creator><![CDATA[stojanovic]]></dc:creator><pubDate>Sun, 28 Dec 2014 18:45:39 GMT</pubDate></item></channel></rss>

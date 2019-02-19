@@ -1,0 +1,133 @@
+/*
+====================
+Sticky footer
+====================
+*/
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+footer {
+  flex-shrink: 0;
+}
+
+/*
+=====================
+=====================
+*/
+
+.padding-top {
+    padding-top: 60px;
+}
+.padding-top nav.navbar a {
+    color: #333;
+}
+
+.padding-top nav.navbar a:focus {
+  color: #333;
+}
+
+.padding-top nav.navbar a:hover {
+    color: #666;
+}
+
+.intro-header hr.small {
+    border-color: #333;
+}
+
+.intro-header .site-heading {
+    color: #333;
+}
+
+.pagination {
+  width: 100%;
+}
+.pagination .left {
+  float: left;
+}
+.pagination .right {
+  float: right;
+}
+
+/*
+====================
+Conferences
+====================
+*/
+
+.conferences-intro {
+  text-align: center;
+}
+
+.conferences {
+  padding: 0;
+}
+
+.conference {
+  margin-bottom: 30px;
+}
+
+.conference .badge-container {
+  display: flex;
+  margin-top: 12px;
+  justify-content: center;
+}
+
+.conference .badge {
+  width: 50%;
+  padding: 5px;
+}
+
+.conference .conference-caption {
+  padding: 15px;
+  text-align: left
+}
+.conference-logo {
+  max-height: 250px;
+  min-width: 100%;
+}
+.conference .conference-title {
+  word-break: break-word;
+}
+
+.conference-links i {
+  padding: 0px 6.5px 0px 0px;
+}
+
+.conference-links a:link {
+  text-decoration: none;
+}
+
+.conference-links {
+  padding-top: 15px;
+  font-size: x-large;
+}
+
+.badge.upcoming {
+  background: green;
+}
+.badge.past {
+  background: red;
+}
+.badge.today {
+  background: grey;
+}
+
+.conference-links .youtube {
+  color: #ff1004;
+}
+
+.conference-links .twitter {
+  color: #1da1f2;
+}
+/*
+=====================
+=====================
+*/
